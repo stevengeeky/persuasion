@@ -1,0 +1,61 @@
+.wrapper {
+    position:fixed;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    overflow:hidden;
+    text-align:center;
+    background:black;
+}
+
+.control {
+    display:inline-block;
+    margin:0;
+    height:25%;
+    font-size:70px;
+    background:none;
+    color:white;
+    transition:background .5s, color .5s;
+}
+.control:hover {
+    color:black;
+}
+
+.full {
+    width:100%;
+}
+.half {
+    width:50%;
+}
+.third {
+    width:33.33%;
+}
+
+.red {
+    border:2px solid #eaa;
+}
+.red:hover {
+    background:#eaa;
+}
+
+.blue {
+    border:2px solid #bbf;
+}
+.blue:hover {
+    background:#bbf;
+}
+
+.green {
+    border:2px solid #afa;
+}
+.green:hover {
+    background:#afa;
+}
+
+.white {
+    border:2px solid #fff;
+}
+.white:hover {
+    background:#fff;
+}
